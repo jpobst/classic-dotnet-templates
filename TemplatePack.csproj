@@ -6,7 +6,7 @@
     <PackageId>Classic.Console.Templates</PackageId>
     <Title>Classic Console Templates</Title>
     <Authors>Public Extensions</Authors>
-    <Description>.NET 6+ project templates that do not use top-level statements.</Description>
+    <Description>.NET 6+ console project templates that do not use top-level statements.</Description>
     <PackageTags>dotnet-new;templates;console;classic;top;level</PackageTags>
     <PackageOutputPath>nupkg</PackageOutputPath>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -22,6 +22,7 @@
   <ItemGroup>
     <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
     <Compile Remove="**\*" />
+    <None Include="readme.md" Pack="true" />
   </ItemGroup>
 
 </Project>
