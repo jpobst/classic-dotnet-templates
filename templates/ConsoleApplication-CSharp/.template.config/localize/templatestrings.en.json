@@ -1,6 +1,6 @@
 {
   "author": "Public Extensions",
-  "name": "Console Application",
+  "name": "Console Application (Classic)",
   "description": "A project for creating a command-line application that can run on .NET Core on Windows, Linux and macOS without using top-level statements",
   "symbols/TargetFrameworkOverride/description": "Overrides the target framework",
   "symbols/TargetFrameworkOverride/displayName": "Target framework override",

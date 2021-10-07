@@ -5,13 +5,13 @@
     "Common",
     "Console"
   ],
-  "name": "Console Application",
+  "name": "Console Application (Classic)",
   "generatorVersions": "[1.0.0.0-*)",
   "description": "A project for creating a command-line application that can run on .NET Core on Windows, Linux and macOS, without top-level statements",
   "groupIdentity": "PublicExtensions.Common.Console",
   "precedence": "8000",
   "identity": "PublicExtensions.Common.Console.CSharp.6.0",
-  "shortName": "console",
+  "shortName": "console-classic",
   "tags": {
     "language": "C#",
     "type": "project"

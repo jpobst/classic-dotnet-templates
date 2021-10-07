@@ -1,6 +1,6 @@
 ﻿{
   "author": "Public Extensions",
-  "name": "Консольное приложение",
+  "name": "Консольное приложение (Classic)",
   "description": "Проект для создания приложения командной строки, которое может выполняться в среде .NET Core в Windows, Linux и Mac OS",
   "symbols/TargetFrameworkOverride/description": "Переопределяет целевую платформу",
   "symbols/TargetFrameworkOverride/displayName": "Переопределение целевой платформы",

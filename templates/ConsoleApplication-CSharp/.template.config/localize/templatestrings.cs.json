@@ -1,6 +1,6 @@
 ﻿{
   "author": "Public Extensions",
-  "name": "Konzolová aplikace",
+  "name": "Konzolová aplikace (Classic)",
   "description": "Projekt pro vytvoření aplikace příkazového řádku, která běží na platformě .NET Core v systémech Windows, Linux a macOS",
   "symbols/TargetFrameworkOverride/description": "Přepíše cílovou architekturu.",
   "symbols/TargetFrameworkOverride/displayName": "Přepsání cílové architektury",

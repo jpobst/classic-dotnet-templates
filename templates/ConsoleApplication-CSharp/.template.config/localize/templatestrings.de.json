@@ -1,6 +1,6 @@
 ﻿{
   "author": "Public Extensions",
-  "name": "Konsolenanwendung",
+  "name": "Konsolenanwendung (Classic)",
   "description": "Ein Projekt zum Erstellen einer Befehlszeilenanwendung, die mit .NET Core unter Windows, Linux und macOS ausgeführt werden kann",
   "symbols/TargetFrameworkOverride/description": "Überschreibt das Zielframework",
   "symbols/TargetFrameworkOverride/displayName": "Zielframeworküberschreibung",

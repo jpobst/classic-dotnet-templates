@@ -39,6 +39,12 @@ There is currently no option to use the "classic" template if you wish.  Install
 
 ![VS2022 Screenshot](https://github.com/jpobst/classic-dotnet-templates/blob/main/docs/vs-new-project.png "VS2022 Screenshot")
 
+### Use from CLI
+
+To create a new project from the command line:
+
+`dotnet new console-classic`
+
 ### Uninstall
 
 This template pack can be uninstalled with:
