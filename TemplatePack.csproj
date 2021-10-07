@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageVersion>0.1.0</PackageVersion>
+    <PackageId>Classic.Console.Templates</PackageId>
+    <Title>Classic Console Templates</Title>
+    <Authors>Public Extensions</Authors>
+    <Description>.NET 6+ project templates that do not use top-level statements.</Description>
+    <PackageTags>dotnet-new;templates;console;classic;top;level</PackageTags>
+    <PackageOutputPath>nupkg</PackageOutputPath>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/jpobst/classic-dotnet-templates</PackageProjectUrl>
+
+    <TargetFramework>net6.0</TargetFramework>
+
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+</Project>
