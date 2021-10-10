@@ -1,0 +1,26 @@
+{ 
+  "$schema": "http://json.schemastore.org/vs-2017.3.host",  
+  "symbolInfo": [
+    {
+      "id": "nrt",
+      "name": {
+        "text": "Use nullable reference types"
+      },
+      "isVisible": "true"
+    },
+    {
+      "id": "topLevelProgram",
+      "name": {
+        "text": "Use top level statements"
+      },
+      "isVisible": "true"
+    },
+    {
+      "id": "implicitUsings",
+      "name": {
+        "text": "Use global implicit usings"
+      },
+      "isVisible": "true"
+    }
+  ]
+}

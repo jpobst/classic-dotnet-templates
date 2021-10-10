@@ -61,6 +61,27 @@
       "defaultValue": "false",
       "displayName": "Skip restore"
     },
+    "nrt": {
+      "type": "parameter",
+      "datatype": "bool",
+      "description": "If true, turns on nullable reference types.",
+      "defaultValue": "true",
+      "displayName": "Nullable reference types",
+    },
+    "topLevelProgram": {
+      "type": "parameter",
+      "datatype": "bool",
+      "description": "If true, auto-generates the top level statements, skipping explicit main methods, class and namespace.",
+      "defaultValue": "false",
+      "displayName": "Top level statements",
+    },
+    "implicitUsings": {
+      "type": "parameter",
+      "datatype": "bool",
+      "description": "If true, auto-imports many common using statements.",
+      "defaultValue": "false",
+      "displayName": "Implicit usings",
+    },
     "csharp10orLater": {
       "type": "generated",
       "generator": "regexMatch",
@@ -90,15 +111,15 @@
     },
     "csharpFeature_ImplicitUsings": {
       "type": "computed",
-      "value": "csharp10orLater == \"dummy\""
+      "value": "csharp10orLater == \"true\" && implicitUsings == \"true\""
     },
     "csharpFeature_Nullable": {
       "type": "computed",
-      "value": "csharp8orLater == \"true\""
+      "value": "csharp8orLater == \"true\" && nrt == \"true\""
     },
     "csharpFeature_TopLevelProgram": {
       "type": "computed",
-      "value": "csharp9orLater == \"dummy\""
+      "value": "csharp9orLater == \"true\" && topLevelProgram == \"true\""
     }
   },
   "primaryOutputs": [

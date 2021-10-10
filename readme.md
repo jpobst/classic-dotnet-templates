@@ -39,11 +39,26 @@ There is currently no option to use the "classic" template if you wish.  Install
 
 ![VS2022 Screenshot](https://github.com/jpobst/classic-dotnet-templates/blob/main/docs/vs-new-project.png "VS2022 Screenshot")
 
+Using this template will allow you to select which template features to use:
+
+![VS2022 Screenshot](https://github.com/jpobst/classic-dotnet-templates/blob/main/docs/vs-options.png "VS2022 Screenshot")
+
 ### Use from CLI
 
 To create a new project from the command line:
 
 `dotnet new console-classic`
+
+Template features can be toggled:
+
+`dotnet new console-classic --topLevelProgram=false --nrt=true --implicitUsings=false`
+
+Available options:
+```
+--nrt: If true, turns on nullable reference types. [defaults to 'true']
+--topLevelProgram: If true, auto-generates the top level statements, skipping explicit main methods, class and namespace. [defaults to 'false']
+--implicitUsings: If true, auto-imports many common using statements. [defaults to 'false']
+```
 
 ### Uninstall
 
