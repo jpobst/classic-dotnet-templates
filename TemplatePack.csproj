@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>0.2.0</PackageVersion>
+    <PackageVersion>0.2.1</PackageVersion>
     <PackageId>Classic.Console.Templates</PackageId>
     <Title>Classic Console Templates</Title>
     <Authors>Public Extensions</Authors>
@@ -11,7 +11,8 @@
     <PackageOutputPath>nupkg</PackageOutputPath>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/jpobst/classic-dotnet-templates</PackageProjectUrl>
-
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    
     <TargetFramework>net6.0</TargetFramework>
 
     <IncludeContentInPack>true</IncludeContentInPack>
@@ -22,7 +23,7 @@
   <ItemGroup>
     <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
     <Compile Remove="**\*" />
-    <None Include="readme.md" Pack="true" />
+    <None Include="readme.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
