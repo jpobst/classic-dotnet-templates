@@ -37,11 +37,11 @@ namespace MyProject
 
 There is currently no option to use the "classic" template if you wish.  Installing this template pack will add a "classic" template to VS2022:
 
-![VS2022 Screenshot](https://github.com/jpobst/classic-dotnet-templates/blob/main/docs/vs-new-project.png "VS2022 Screenshot")
+![VS2022 Screenshot](https://raw.githubusercontent.com/jpobst/classic-dotnet-templates/main/docs/vs-new-project.png "VS2022 Screenshot")
 
 Using this template will allow you to select which template features to use:
 
-![VS2022 Screenshot](https://github.com/jpobst/classic-dotnet-templates/blob/main/docs/vs-options.png "VS2022 Screenshot")
+![VS2022 Screenshot](https://raw.githubusercontent.com/jpobst/classic-dotnet-templates/main/docs/vs-options.png "VS2022 Screenshot")
 
 ### Use from CLI
 
